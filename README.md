@@ -1,4 +1,4 @@
-# 🎙️ Whisper Local — Extensão para Adobe Premiere Pro (macOS)
+# LocalWhisper — Extensão para Adobe Premiere Pro (macOS)
 
 Extensão nativa (UXP) para o **Adobe Premiere Pro** que integra o **OpenAI Whisper** localmente para transcrição de áudio e geração automática de legendas `.srt` sincronizadas diretamente na sua timeline.
 
@@ -6,7 +6,7 @@ Sem custos de API, sem limite de minutos e 100% privado na sua máquina.
 
 ---
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - **100% Local e Gratuito:** Processamento executado na GPU/CPU do seu Mac usando o modelo Whisper local (suporte aos modelos `turbo`, `tiny`, `base`, `small`, `medium`, `large`).
 - **Suporte a Múltiplos Clipes:** Selecione um ou vários clipes na Timeline ao mesmo tempo. As legendas são geradas e sincronizadas de uma só vez em um único arquivo `.srt`.
@@ -42,7 +42,7 @@ Sem custos de API, sem limite de minutos e 100% privado na sua máquina.
 
 ---
 
-## 🛠️ Pré-requisitos
+## Pré-requisitos
 
 1. **macOS** (Apple Silicon M1/M2/M3/M4 ou Intel).
 2. **Adobe Premiere Pro 25.6 ou superior** (com suporte à arquitetura UXP).
@@ -50,7 +50,7 @@ Sem custos de API, sem limite de minutos e 100% privado na sua máquina.
 
 ---
 
-## 🚀 Instalação Rápida
+## Instalação Rápida
 
 ### 1. Clonar o repositório
 ```bash
@@ -88,7 +88,7 @@ Você tem duas opções para rodar o servidor:
 
 ---
 
-## 🎬 Como Usar
+## Como Usar
 
 1. Abra o **Adobe Premiere Pro**.
 2. Abra o painel em: **Janela (Window) > Plugins > Whisper Local**.
@@ -101,7 +101,7 @@ Você tem duas opções para rodar o servidor:
 
 ---
 
-## 🔍 Solução de Problemas
+## Solução de Problemas
 
 - **"Servidor offline" no painel:**
   - Verifique se o servidor está rodando. Se configurou o autostart, veja o log em `/tmp/whisper-server.log`.
@@ -116,6 +116,6 @@ Você tem duas opções para rodar o servidor:
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este projeto é disponibilizado sob a licença [MIT](LICENSE). Sinta-se livre para usar, modificar e contribuir!
